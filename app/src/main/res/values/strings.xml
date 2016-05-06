@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ShopAdvisor</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Im empty</string>
+
+    <string name="always_connect">Always connect</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

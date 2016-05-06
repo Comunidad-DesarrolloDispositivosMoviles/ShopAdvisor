@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cr.ac.itcr.shopadvisor.CreatePlace">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TableRow
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="New Place"
+                android:id="@+id/lblTitle"
+                android:textColor="#3f51b5"
+                android:textSize="35sp"
+                android:textStyle="bold"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:id="@+id/lblName"
+                android:textSize="25sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtName"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_weight="1"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add"
+                android:id="@+id/btnAdd"/>
+        </TableRow>
+
+
+    </TableLayout>
+
+</FrameLayout>
